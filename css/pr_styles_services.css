@@ -1,0 +1,841 @@
+@import "prCustomerImages.css";
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+MAIN DEFAULTS
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+body {
+    font-family:Verdana,Helvetica,Arial,sans-serif;
+    font-size:76%;
+    color:#333;
+    margin:10px 0 0 10px;
+    padding:0;
+    background-color:#ffffff;
+}
+
+a {
+    color:#3365ca;
+}
+
+h1 {
+    font-size:1.3em;
+}
+
+h2 {
+    font-size:1.2em;
+}
+
+h3 {
+    font-size:1.05em;
+}
+
+label {
+    cursor: pointer;
+}
+
+.break {clear:both;}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+MAIN LAYOUT
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+.prwrapper {
+    padding-bottom:20px;
+    margin-bottom:20px;
+    width:585px;
+}
+
+.poweredby {
+    text-align:right;
+    height:30px;
+    margin:0;
+}
+
+.poweredby a {
+    float:right;
+    display:block;
+    width:200px;
+    height:30px;
+    letter-spacing:-5000px;
+    font-size:0.1em;
+    color:#fff;
+}
+
+.poweredby.color {
+    padding:10px 0 0;
+}
+
+.poweredby.side {
+    padding:0;
+    margin:-25px 0 0;
+}
+
+.poweredby.push {
+    padding-top:2.5em;
+}
+
+
+.poweredby.color.en a {
+    background: url(/images/poweredby_color_en.gif) top right no-repeat;
+}
+
+.poweredby.graya.en a {
+    background: url(/images/poweredby_gray_en.gif) top right no-repeat;
+}
+
+.poweredby.color.fr a {
+    background: url(/images/poweredby_color_fr.gif) top right no-repeat;
+}
+
+.poweredby.graya.fr a {
+    background: url(/images/poweredby_gray_fr.gif) top right no-repeat;
+}
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+SUBMIT STYLES
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+/*  intro, product summary, and misc
+----------------------------------- */
+
+.required {
+    padding-left:10px;
+    background: url(/images/required_dot.gif) left .4em no-repeat;
+}
+
+.prlabel h3 {
+    display:inline;
+    color:#666;
+}
+
+.prlabel h3.requiredError {
+    color:#c00;
+    padding-left:10px;
+    background: url(/images/required_dot.gif) left .4em no-repeat;
+}
+
+.requirednotice {
+    text-align:right;
+    font-size:.85em;
+    padding:0 0 5px;
+}
+
+.printro h1 {
+    margin:1em 0 0;
+}
+
+.printro p {
+    margin:0;
+}
+
+.prproductsummary {
+    overflow:auto;
+    height:100%;
+}
+
+.prproductsummary img {
+    float:left;
+    margin:0 10px 0px 0;
+}
+
+
+
+/*  submit field groups
+----------------------------------- */
+
+.prproductsummary {
+    border:1px solid #ddd;
+    padding:.75em;
+    background: url(/images/shade_light.gif) bottom left repeat-x;
+}
+
+.prinputgroup {
+    padding:1em 0 0;
+}
+
+.prlabel {
+    float:left;
+    width:135px;
+    padding:.5em 0;
+    margin:0 10px 0 0;
+    clear:both;
+    background:#fff;
+    text-align:right;
+}
+
+
+.prlabel p {
+    margin:0 0 0 -10px;
+    font-size:.75em;
+    color:#999;
+}
+
+
+.prfieldwrap {
+    float:left;
+    clear:none;
+    width:430px;
+    margin:0;
+    padding:8px 0 8px 8px;
+    border:1px solid #ddd;
+    background: url(/images/shade_light.gif) bottom left repeat-x;
+    position:relative;
+}
+
+
+.prfieldwrap2 {
+    float:left;
+    clear:none;
+    width:220px;
+    margin:0;
+    padding:8px 0 8px 8px;
+    border:1px solid #ddd;
+    background: url(/images/shade_light.gif) bottom left repeat-x;
+    position:relative;
+}
+
+.prfieldwrap3 {
+    float:left;
+    width:100px;
+}
+
+.prfieldwrap4 {
+    float:left;
+    width:120px;
+}
+
+.prfields {
+
+}
+
+.additionalratings {
+    margin-bottom:0.5em;
+}
+
+.prfields p {
+    margin:0 0 1em;
+}
+
+
+.prsubmit {
+    margin-left:145px;
+}
+
+div.ratingMessage {
+    height:12px;
+    padding:0px 0 0 0;
+    margin:0 0 0 150px;
+    line-height:1.6;
+    color:#666;
+}
+
+
+/*  checkbox styles
+----------------------------------- */
+
+p.checkitem {
+    text-indent:-24px;
+    margin:0 0 7px 24px;
+}
+
+p.checkitemcustom {
+    text-indent:-24px;
+    margin:0 0 7px 24px;
+    font-style:italic;
+}
+
+.checkboxes {
+    float:left;
+    width:175px;
+}
+
+.checkboxes a {
+    color:#000;
+    text-decoration:none;
+}
+
+p.checkitem a.checkbox {
+    padding: 4px 0px 0px 17px;
+}
+p.checkitemcustom a.checkbox {
+    padding: 4px 0px 0px 22px;
+}
+a.unchecked {
+    background: url(/images/unchecked_box.gif) top left no-repeat;
+}
+a.checked {
+    background: url(/images/checked_box.gif) top left no-repeat;
+}
+
+
+/* add tag module
+----------------------------------- */
+
+.addTags {
+    margin:0 0 10px 175px;
+    clear:none;
+    width:205px;
+    height:160px;
+    padding:1px 10px 10px 30px;
+    background: url(/images/addtagbox.gif) top left no-repeat;
+}
+
+.addTags p {
+    margin:.5em 0;
+}
+
+.addTags a {
+    color:#3365ca;
+    text-decoration:underline;
+}
+
+ul.suggestions {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.suggestions li {
+    margin:.1em 0;
+}
+
+.addInstructions {
+    color:#999;
+    font-size:.85em;
+}
+
+/*  instructions, tips, and notes
+----------------------------------- */
+
+.tips {
+    font-size:.75em;
+    color:#999;
+}
+
+
+.tips ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.tips ul li {
+    margin:0;
+    padding:0;
+}
+
+p.tiptoggle {
+    margin:0;
+}
+
+p.tiptoggle a {
+    color:#3365ca;
+    font-size:.85em;
+    text-decoration:none;
+}
+
+p.instructions {
+    padding:0 0 0 10px;
+}
+
+
+.smallnote {
+    font-size:.75em;
+}
+
+.medsmall {
+    font-size:.85em;
+}
+
+.fieldnote {
+    font-size:.75em;
+    margin:0 0 1em;
+    color:#999;
+}
+
+.legal {
+    font-size:.85em;
+    margin:0;
+    padding:1em 0 0;
+}
+
+.branded {
+
+}
+
+
+/*  show/hide links
+----------------------------------- */
+
+
+span.hide {
+    display:none;
+}
+
+span.show {
+    display:inline;
+    padding-left:10px;
+    background: url(/images/rt_arrow_sm.gif) center left no-repeat;
+}
+
+.shown span.hide {
+    display:inline;
+    padding-left:10px;
+    background: url(/images/dn_arrow_sm.gif) center left no-repeat;
+}
+
+.shown span.show {
+    display:none;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+PREVIEW + VERIFY STYLES
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.prsummarywrap {
+    margin:1em 0;
+}
+
+
+.prlabel.preview {
+    padding:.5em 0;
+    width:100px;
+    float:left;
+    clear:both;
+    background:#fff;
+    text-align:right;
+}
+
+.prgroup {
+    width:585px;
+    margin:1em 0;
+}
+
+.prcontentwrap {  /* content wrapper, for styling flexibility */
+    position:relative;
+    width:455px;
+    float:right;
+    clear:none;
+    border:1px solid #ddd;
+    background: url(/images/shade_light.gif) bottom left repeat-x;
+}
+
+.prcontentwrap.verify {
+    width:585px;
+    float: none;
+    margin-bottom: -1em;
+}
+
+.prcontent {  /* not much here; default styles are in wrapper above */
+    margin:0;
+    padding:1em 1em 2em 1em;
+}
+
+.prcontent h3 {
+    display:inline;
+}
+
+.prcontent h2 {
+    margin:0;
+}
+
+/* stars rating styles */
+div.prStars {
+    position: relative;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 112px;
+    float: left;
+    line-height: 20px;
+    padding: 0px;
+}
+div.prStars.prStarsSmall {
+    height: 15px;
+    width: 83px;
+    line-height: 15px;
+}
+
+/* individual star boxes */
+div.prStars div.prStar {
+    position: absolute;
+    height: 20px;
+    width: 23px;
+}
+div.prStars div.prStar:hover {
+    cursor: pointer;
+}
+div.prStars .prStar.prS2 {
+    left: 23px;
+}
+div.prStars .prStar.prS3 {
+    left: 46px;
+}
+div.prStars .prStar.prS4 {
+    left: 69px;
+}
+div.prStars .prStar.prS5 {
+    left: 92px;
+}
+
+/* individual star boxes (small) */
+div.prStars.prStarsSmall div.prStar {
+    position: absolute;
+    height: 15px;
+    width: 17px;
+}
+div.prStars.prStarsSmall .prStar.prS2 {
+    left: 17px;
+}
+div.prStars.prStarsSmall .prStar.prS3 {
+    left: 34px;
+}
+div.prStars.prStarsSmall .prStar.prS4 {
+    left: 51px;
+}
+div.prStars.prStarsSmall .prStar.prS5 {
+    left: 68px;
+}
+/* end stars rating styles */
+
+.prconfirm {
+    margin:0 0 1em 45%;
+    font-size:.85em;
+    line-height:1.0;
+}
+
+.prpromo {  /* ad box */
+    margin:0 0 0 10px;
+/*margin:0;*/
+    padding:0;
+    width:224px;
+    float:right;
+    clear:both;
+}
+
+
+/*  summary pros/cons list
+----------------------------------- */
+
+
+.prReviewKey, .prReviewValue {
+    float:left;
+    margin:0 0 .5em;
+}
+
+.prReviewKey {
+    text-align:right;
+    font-weight:bold;
+    width:20%;
+    padding-right:2%;
+    clear: both;
+}
+
+.prReviewValue {
+    width:78%;
+}
+
+.reviewsummary {
+
+}
+
+/*  misc text
+----------------------------------- */
+
+.comments {
+    clear:both;
+    margin:1em 0 0;
+    border-top:1px solid #ddd;
+}
+
+.prnotice {
+    border:1px solid #ddd;
+    padding:1em;
+}
+
+.prnotice a {
+    color:#3365ca;
+}
+
+/*  verify stuff
+----------------------------------- */
+
+.verifywrap {
+/*clear:both;*/
+    margin:1em 0 0;
+    padding:1.5em 0 0 0;
+    border-top:1px solid #ddd;
+    text-align:center;
+}
+
+.verifyform {
+    margin:0 auto;
+    text-align:left;
+}
+
+.prshop {
+    float:left;
+    width: 100%;
+    margin-top: 1em;
+}
+
+
+/*  content checks
+----------------------------------- */
+
+.alert {
+    padding:10px 0 10px 30px;
+    font-weight:bold;
+}
+
+.spelling {
+    color:#f90;
+    background: url(/images/orangealert.gif) center left no-repeat;
+}
+
+.error {
+    color:#c00;
+    background: url(/images/redalert.gif) center left no-repeat;
+}
+
+.spellword, .profaneword {
+    font-weight:bold;
+}
+
+.spellword {
+    color:#f90;
+}
+
+.profaneword {
+    color:#c00;
+}
+
+.errormsgtext
+{
+    color:#c00;
+}
+
+.errorbox
+{
+    background:#fff;
+}
+
+/*  preview form stuff
+----------------------------------- */
+
+.verifyform .inputBox {
+    width:220px;
+}
+
+
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+FORM ELEMENT
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.inputBox {
+    width:410px;
+    padding:3px 0;
+}
+
+.addTags .inputBox {
+    width:160px;
+}
+
+/* enabling these will make the "Delete" button on addImage.jsp stand out from the "Browse" button */
+/*input, textarea {
+	color:#000;
+	background:#fff;
+	}*/
+
+#experience textarea {
+    width:410px;
+    height:130px;
+}
+
+
+input[type="text"]:focus, textarea:focus {
+    border-color:#3365ca;
+    color:#4c6f14;
+    background:#edf7de;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+BUTTONS
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+/*  button visual styles
+----------------------------------- */
+
+.button {
+    height:25px;
+    padding:5px 3px 6px 0px;
+    font-size:12px;
+    line-height:1.0;
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+    background: #fff url(/images/button_double.gif) top right no-repeat;
+}
+.button.inactive {
+    cursor: default;
+    color: #909090;
+    background-image: url(/images/button_double_inactive.gif);
+}
+
+a.button:hover {
+    color:black;
+}
+a.button.inactive:hover {
+    color: #909090;
+}
+
+.button span {
+    padding:5px 7px 6px 10px;
+    background: #fff url(/images/button.gif) top left no-repeat;
+}
+.button.inactive span {
+    background-image: url(/images/button_inactive.gif);
+}
+
+
+.rtarrow {
+    background-position:top right;
+    padding-right:24px;
+}
+
+.lfarrow {
+    background-position:top left;
+    padding-right:0;
+    padding-left:24px;
+}
+
+.rtarrow span {
+    background-position:top left;
+    padding-right:3px;
+}
+
+.lfarrow span {
+    background-position:top right;
+    padding-right:10px;
+    padding-left:3px;
+}
+
+a.button.tagsuggest {
+    position: absolute;
+    top: 1px;
+    margin-left: 3px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    color: white;
+}
+a.button.tagsuggest:hover {
+    color: black;
+}
+a.button.tagsuggest span {
+    padding: 4px 3px 9px 5px;
+}
+
+
+/*  button-positioning divs
+----------------------------------- */
+
+.prsubmit.mainform {
+    clear:both;
+    padding-top:20px;
+}
+
+.predit {
+    clear:left;
+    padding:5px 0 0;
+}
+
+.prcontentwrap .prsubmit {
+    clear:both;
+    margin:-19px 0 0 45%;
+    padding:5px 0 0;
+    overflow:visible;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+RADIO BUTTONS
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+table.radioScale {
+	width:100%;
+	margin-left:-5px;
+	}
+
+table.radioScale td {
+	padding:0 1%;
+	font-size:91%;
+	text-align:center;
+	color:#666;
+	}
+
+table.radioScale .radioButtons td {
+	background:url("/images/line_left.gif") 0% 50% repeat-x;
+	}
+
+table.radioScale .radioButtons td.leftEnd {
+	background:url("/images/line_right.gif") 50% 50% repeat-x;
+	}
+
+table.radioScale .radioButtons td.rightEnd {
+	background:url("/images/line_left.gif") 50% 50% repeat-x;
+	}
+
+/* for single-line options */
+.radioOpt {
+	padding-right:1em;
+}
+
+.prClearRadio {
+    margin:6px 0 -2px;
+    padding:0 6px;
+    text-align:right;
+    }
+
+.prClearRadio a {
+    padding:0px 4px 1px 16px;
+    background: url("/images/bg_clear_radio.jpg") 1px 1px no-repeat;
+    color:#469;
+    font-size:11px;
+    line-height:11px;
+    text-decoration:none;
+    border:1px solid #ddd;
+    border-color:#e6e6e6 #ccc #bbb #ddd;
+    }
+
+.prClearRadio a:hover {
+    background-color:#ddeef2;
+    color:#25a;
+    border-color:#bbb #ddd #e6e6e6 #ccc;
+    }
+
+
+
+/* for controlling the display of the brand name */
+.brandName {
+}

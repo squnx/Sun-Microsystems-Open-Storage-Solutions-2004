@@ -1,0 +1,326 @@
+body {
+/* 	font-family:Verdana,Helvetica,Arial,sans-serif; */
+/* 	font-size:76%; */
+/* 	color:#333; */
+	margin:10px 0 0 10px;
+	padding:0;
+    background-color:#ffffff;
+    }
+
+.break {clear:both;}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+MAIN LAYOUT
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+SUBMIT STYLES
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+/*  intro, product summary, and misc
+----------------------------------- */
+
+.required {
+	padding-left:10px;
+	background: url(/images_merchant/sun/required_dot.gif) left .2em no-repeat;
+	}
+
+
+.requirednotice {
+	text-align:right;
+	font-size:11px;
+	padding:0 0 5px;
+}
+
+
+/*  submit field groups
+----------------------------------- */
+
+.prproductsummary {
+        background:none;
+	}
+
+	.prlabel p {
+	font-size:11px;
+		}
+
+
+.prfieldwrap {
+        border:none;
+        background:#efefef;
+	position:relative;
+	}
+
+.prlabel h3.requiredError {
+    color:#c00;
+    padding-left:10px;
+	background: url(/images_merchant/sun/required_dot.gif) left .4em no-repeat;
+}
+
+
+
+/* add tag module
+----------------------------------- */
+
+.addTags {
+	background: url(/images_merchant/sun/addtagbox.gif) top left no-repeat;
+	}
+
+	.addTags a {
+                color:white;
+		}
+
+.addInstructions {
+	font-size:11px;
+	}
+
+/*  instructions, tips, and notes
+----------------------------------- */
+
+.tips {
+	font-size:11px;
+	}
+
+p.tiptoggle a {
+	font-size:11px;
+	text-decoration:none;
+}
+
+p.instructions {
+	padding:0 0 0 10px;
+	}
+
+
+.smallnote {
+	font-size:11px;
+	}
+
+.medsmall {
+	font-size:11px;
+	}
+
+.fieldnote {
+	font-size:11px;
+	}
+
+.legal {
+	font-size:11px;
+}
+
+span.show {
+	background: url(/images_merchant/sun/rt_arrow_sm.gif) center left no-repeat;
+	}
+
+.shown span.hide {
+	background: url(/images_merchant/sun/dn_arrow_sm.gif) center left no-repeat;
+	}
+
+.prcontentwrap {
+background:#efefef;
+	}
+
+.prconfirm {
+	line-height:1.0;
+	}
+
+
+/*  summary pros/cons list
+----------------------------------- */
+
+
+.prReviewKey, .prReviewValue {
+        float:none;
+	}
+
+div#prContents table table{width:auto}
+
+tr td.prReviewKey {
+	text-align:right;
+	font-weight:bold;
+	width:auto !important;
+	padding-right:4px;
+	white-space:nowrap;
+	}
+
+.prReviewValue {
+	width:auto;
+	}
+
+
+td.prSummaryWriteReview {text-align:left}
+
+.reviewsummary td {
+	padding:3px 0;
+	}
+
+.reviewsummary td.label {
+	font-weight:bold;
+ 	text-align:inherit;
+	padding-right:10px;
+	}
+
+/*  misc text
+----------------------------------- */
+
+.comments {
+	clear:both;
+	margin:1em 0 0;
+        border-top:none;
+	}
+
+.prnotice {
+ 	border:none
+	}
+
+	.prnotice a {
+		color:#3365ca;
+		}
+
+/*  verify stuff
+----------------------------------- */
+
+.verifywrap {
+ 	border-top:none;
+	}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+BUTTONS
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+/*  button visual styles
+----------------------------------- */
+
+.button {
+        background:none;
+}
+
+a.button:hover {
+	color:black;
+	}
+
+.button span {
+	padding:5px 7px 6px 10px;
+    background:none;
+	}
+
+.rtarrow {
+  background-position:inherit;
+  padding-right:inherit;
+}
+
+.lfarrow {
+	background-position:top left;
+	padding-right:0;
+	padding-left:24px;
+	}
+
+.rtarrow span {
+	background-position:inherit;
+	padding-right:inherit;
+	}
+
+.lfarrow span {
+	background-position:top right;
+	padding-right:10px;
+	padding-left:3px;
+	}
+
+
+/*  button-positioning divs
+----------------------------------- */
+
+.prsubmit.mainform {
+	clear:both;
+	padding-top:20px;
+	}
+
+.predit {
+	height:25px;
+	width:40%;
+	clear:left;
+	padding:5px 0 0;
+	}
+
+.prcontentwrap .prsubmit {
+	clear:both;
+	height:25px;
+	margin:-30px 0 0 45%;
+	padding:5px 0 0;
+	overflow:visible;
+	}
+
+/* added sun custom */
+.printro .medsmall {font-size:12px}
+
+.printro h1 {font-size: 16px;}
+
+.requirednotice img {vertical-align:middle}
+
+p.tiptoggle span {font-size:11px}
+
+
+a.button{white-space:nowrap;line-height:2em;margin:0px 3px}
+a.button:link,a.button:visited{color:#FFF;padding:3px 8px;border-right:1px solid #C06600;border-bottom:1px solid #C06600;border-left:1px solid #FAE2CC;border-top:1px solid #FAE2CC;background:url("http://www.sun.com/css/bg_sunorange.gif") repeat-x left top #E76F00}
+a.button:hover{color:#FBE249;text-decoration:none}
+a.button span{padding:0px}
+
+
+
+.prproductsummary h2 {font-size:15px}
+
+
+body, th, td, p, div, span, a, input, select, textarea, ul, ol, dl, h1, h2, h3, h4, h5, h6, li, big, small, b, pre.sunfont, font
+{
+    font-family: Arial,Helvetica,FreeSans,"Luxi-sans","Nimbus Sans L",sans-serif;
+}
+
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h1 + ol, h2 + ol, h3 + ol, h4 + ol, h5 + ol, h1 + ul, h2 + ul, h3 + ul, h4 + ul, h5 + ul
+{
+    margin-top:2px;
+}
+
+h3 {
+        font-size: 15px;
+}
+
+a.correctedWords {
+  color:#0000ff;
+}
+
+div#overallRatingMessageDiv{display:none !important}
+
+.tiptoggle a:visited,.medsmall a:visited{color:#3A5B70}
+.tiptoggle a:link,.medsmall a:link{color:#5382A1}
+.tiptoggle a:hover,.medsmall a:hover{text-decoration:underline}
+
+a.button.tagsuggest {
+  line-height: 16px;
+  top: 0px;
+  height: 16px;
+  padding-right: 10px;
+  padding-top: 2px;
+}
+a.button.tagsuggest:hover {
+color:#FBE249;text-decoration:none;
+}
+a.button.tagsuggest span {
+  padding-left: 2px;
+  padding-right: 0;
+}
+div.ratingMessage {
+        display: none;
+}
